@@ -3,5 +3,9 @@
     "colors": "^1.4.0",
     "dayjs": "^1.11.7",
     "lodash": "^4.17.21"
+  },
+  "devDependencias":{
+      "nodemon": "^2.0.22",
+      "cowsay": "^1.5.0"
   }
 }
