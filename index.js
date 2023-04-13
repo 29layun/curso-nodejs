@@ -37,8 +37,8 @@ if (age >= 18) {
 
 // Ciclos 
 
-/*r
-const names let'Miguel', 'Anamesro', 'Marco']
+/*
+const names = ["Miguel", "Alejandro", "Marco"];
 
 for (let i = 0; i < names.length; i++) {
     console.log(names[í])
