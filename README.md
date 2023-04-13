@@ -13,7 +13,7 @@
 ***
 --- npm 
 
-## Para instalar npm no es necesario, ya que al indtalar nodejs ya incluye una version actualizada de npm 
+## Para instalar npm no es necesario, ya que al instalar nodejs ya incluye una version actualizada de npm 
 
 # Instalar nodejs en Termux (android)
 
@@ -25,7 +25,7 @@
 $ apt update && upgrade -y
 $ apt install nodejs
 ```
-### "En caso de que no funcilne el comando se utiliza el siguiente"
+### "En caso de que no funcione el comando se utiliza el siguiente"
 ```
 $ pkg update && upgrade -y
 $ pkg install nodejs 
@@ -45,7 +45,7 @@ $ node --version
 $ apt update && upgrade -y
 $ apt install nodejs
 ```
-### "En caso de que no funcilne el comando se utiliza el siguiente"
+### "En caso de que no funcione el comando se utiliza el siguiente"
 ```
 $ pkg update && upgrade -y
 $ pkg install nodejs 
@@ -72,4 +72,21 @@ Es de destacar que el instalador también lleva el gestor de paquetes Node.js (n
 ```
 $ node --version
 $ npm --version
+```
+
+# Para ejecutar algun programa del curso se toma las consideraciones siguientes 
+
+***
+En primera nos debemos de colocar en el prom dentro de la carpeta donde se encuentra los prgramas.
+***
+Ejemplo:  
+```
+$ cd descargas/curso-nodejs
+
+user/descargas/curso-nodejs$  
+```
+***
+Ejemplo de como se ejecuta un programa con Nodejs
+```
+user/descargas/curso-nodejs$ node app.js
 ```
